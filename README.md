@@ -5,6 +5,8 @@ I have marked with a * those which I think are absolutely essential
 Items for each section are sorted by oldest to newest. Come back soon for more!
 
 BASH
+----
+
 * In bash, 'ctrl-r' searches your command history as you type
 - Input from the commandline as if it were a file by replacing 
   'command < file.in' with 'command <<< "some input text"'
@@ -23,6 +25,8 @@ BASH
 
 
 PSEUDO ALIASES FOR COMMONLY USED LONG COMMANDS
+----------------------------------------------
+
 - function lt() { ls -ltrsa "$@" | tail; }
 - function psgrep() { ps axuf | grep -v grep | grep "$@" -i --color=auto; }
 - function fname() { find . -iname "*$@*"; }
@@ -34,12 +38,16 @@ PSEUDO ALIASES FOR COMMONLY USED LONG COMMANDS
 
 
 VIM
+---
+
 - ':set spell' activates vim spellchecker. Use ']s' and '[s' to move between
   mistakes, 'zg' adds to the dictionary, 'z=' suggests correctly spelled words
 - check my .vimrc http://tiny.cc/qxzktw and here http://tiny.cc/kzzktw for more
 
 
 TOOLS
+-----
+
 * 'htop' instead of 'top'
 - 'ranger' is a nice console file manager for vi fans
 - Use 'apt-file' to see which package provides that file you're missing
@@ -70,6 +78,8 @@ TOOLS
 
 
 NETWORKING
+----------
+
 - Don't know where to start? SMB is usually better than NFS for most cases.
 - If you use 'sshfs_mount' and suffer from disconnects, use 
   '-o reconnect,workaround=truncate:rename'
