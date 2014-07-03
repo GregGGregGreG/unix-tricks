@@ -1,8 +1,10 @@
 unix-tricks
 ===========
 
-I have marked with a * those which I think are absolutely essential
-Items for each section are sorted by oldest to newest. Come back soon for more!
+I have marked with a * (not apparent in the MD preview) those which I think are 
+absolutely essential Items for each section are sorted by oldest to newest. 
+
+Come back soon for more!
 
 BASH
 ----
